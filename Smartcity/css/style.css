@@ -1,5 +1,6 @@
 body {
   margin: 0 auto;
+  font-family: inherit;
 }
 
 header {
@@ -60,8 +61,13 @@ header {
 /* Patric end */
 
 /*   kristoffer  */
+<<<<<<< HEAD
 .kristiffer {
   display: block;
+=======
+.kristoffer {
+  display:block;
+>>>>>>> bb6108520e63a6beae6755f491aa4558a7634d10
   position: relative;
 }
 .bottom-content-bg {
@@ -93,7 +99,7 @@ header {
   text-align: left;
 }
 .textbox {
-  width: 66%;
+  width: 100%;
   color: #737373;
   font-family: inherit;
   font-size: 22px;
@@ -104,6 +110,9 @@ header {
 }
 strong {
   font-weight: 700;
+}
+.inline{
+  display:inline-block;
 }
 .img-box {
   float: left;
@@ -122,9 +131,14 @@ strong {
 .pl-text {
   color: #737373;
 }
+<<<<<<< HEAD
 .pl-link {
   color: #0095db;
   text-decoration: 6px underline;
+=======
+.link {
+  text-decoration: none;
+>>>>>>> bb6108520e63a6beae6755f491aa4558a7634d10
 }
 .b-box {
   font-size: 35px;
@@ -133,14 +147,21 @@ strong {
 .line-top {
   border: 3px solid #0095db;
   width: 67px;
+  float:left;
 }
 .line-top-grey {
   border: 3px solid #737373;
   width: 67px;
+  float:left;
 }
 .line-bottom {
+<<<<<<< HEAD
   border: 1px solid #0095db;
+=======
+  border: 3px solid #0095DB;
+>>>>>>> bb6108520e63a6beae6755f491aa4558a7634d10
   width: 37px;
+  float:left;
 }
 .youtube {
   position: relative;
