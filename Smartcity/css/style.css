@@ -48,10 +48,9 @@ header {
 }
 
 .hr-line-bottom{
-    width: 25%;
-    padding-top: 10px;
-    margin-bottom: 25px;
+    width: 4.5%;
     border-bottom: 6px solid #0095db;
+    margin-left: 0;
 }
 
 
