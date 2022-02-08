@@ -52,7 +52,7 @@
     padding-left : 210px;
 
 }
-.images_wrap img {
+.images_wrap {
     width: 100%;
     height: auto;
     display: block;
