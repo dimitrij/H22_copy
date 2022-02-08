@@ -1,5 +1,6 @@
 body {
   margin: 0 auto;
+  font-family: inherit;
 }
 
 header {
@@ -59,7 +60,7 @@ header {
   text-align: left;
 }
 .textbox {
-  width: 66%;
+  width: 100%;
   color: #737373;
   font-family: inherit;
   font-size: 22px;
@@ -70,6 +71,9 @@ header {
 }
 strong {
   font-weight: 700;
+}
+.inline{
+  display:inline-block;
 }
 .img-box {
   float: left;
@@ -88,9 +92,8 @@ strong {
 .pl-text {
   color: #737373;
 }
-.pl-link {
-  color: #0095DB;
-  text-decoration: 6px underline;
+.link {
+  text-decoration: none;
 }
 .b-box {
   font-size: 35px;
@@ -99,14 +102,17 @@ strong {
 .line-top {
   border: 3px solid #0095DB;
   width: 67px;
+  float:left;
 }
 .line-top-grey {
   border: 3px solid #737373;
   width: 67px;
+  float:left;
 }
 .line-bottom {
-  border: 1px solid #0095DB;
+  border: 3px solid #0095DB;
   width: 37px;
+  float:left;
 }
 .youtube {
   position: relative;
