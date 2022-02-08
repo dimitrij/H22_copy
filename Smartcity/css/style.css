@@ -1,88 +1,97 @@
-body{
-    margin: 0 auto;
+body {
+  margin: 0 auto;
 }
 
 header {
-    width: 100%;
-    height: 242px;
-    background-color: blue;
+  width: 100%;
+  height: 242px;
+  background-color: blue;
 }
-
+/* Patric */
 .top-content {
-    width: 100%;
-    height: 4000px;
-    background-color: red;
-
+  width: 100%;
+  height: 4000px;
+  background-color: red;
 }
+
+.hbg-by-night-img {
+  border-bottom: 25px solid #0095db;
+}
+
+.smartcity-headline {
+  margin-top: -170px;
+  background-color: white;
+}
+
+/* Patric end */
 
 /*   kristoffer  */
 .bottom-content {
-    position: relative;
-    width: 100%;
-    height: auto;
-    background-color: #e2e2e2;
-    overflow:hidden;
-    display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #e2e2e2;
+  overflow: hidden;
+  display: block;
 }
 
-.textstyle{
-    text-align: left;
+.textstyle {
+  text-align: left;
 }
- .textbox{
-     width: 66%;
-     color: #737373;
- }
-
-.nyttigt{
-    color: #0095db;
-    font-size: 35px;
+.textbox {
+  width: 66%;
+  color: #737373;
 }
 
-strong{
-    font-weight: 700;
+.nyttigt {
+  color: #0095db;
+  font-size: 35px;
 }
 
-.pl-img-box{
-float:left;
+strong {
+  font-weight: 700;
 }
 
-.pl{
-    border-radius: 50%;
-    max-width: 200px;
-    height: auto;
+.pl-img-box {
+  float: left;
 }
 
-.pl-text-box{
-box-sizing: border-box;
-padding-left: 15px;
-padding-right: 15px;
-width: 100%;
+.pl {
+  border-radius: 50%;
+  max-width: 200px;
+  height: auto;
 }
 
-.pl-text{
-color: #737373;
+.pl-text-box {
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
 }
 
-.pl-link{
-    color: #0095db;
-    text-decoration: 6px underline;
+.pl-text {
+  color: #737373;
 }
 
-.line-top{
-    border: 3px solid #0095db;
-    width: 67px;
+.pl-link {
+  color: #0095db;
+  text-decoration: 6px underline;
 }
 
-.line-bottom{
-    border: 1px solid #0095db;
-    width: 37px;
+.line-top {
+  border: 3px solid #0095db;
+  width: 67px;
 }
 
+.line-bottom {
+  border: 1px solid #0095db;
+  width: 37px;
+}
 
 /* kristoffer end */
 
 footer {
-    width: 100%;
-    height: 400px;
-    background-color: green;
+  width: 100%;
+  height: 400px;
+  background-color: green;
 }
