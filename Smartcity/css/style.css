@@ -118,6 +118,11 @@ strong {
   max-width: 250px;
   height: auto;
 }
+.img-c {
+  border-radius: 20%;
+  max-width: 250px;
+  height: auto;
+}
 .pl-text-box {
   box-sizing: border-box;
   padding-left: 15px;
