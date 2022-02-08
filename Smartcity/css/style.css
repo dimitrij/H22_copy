@@ -97,6 +97,7 @@ header {
   color: #737373;
   font-family: inherit;
   font-size: 22px;
+  padding-bottom: 15px;
 }
 .nyttigt {
   color: #0095db;
@@ -113,7 +114,7 @@ strong {
 }
 .img-b {
   border-radius: 50%;
-  max-width: 200px;
+  max-width: 250px;
   height: auto;
 }
 .pl-text-box {
@@ -131,6 +132,10 @@ strong {
 .b-box {
   font-size: 35px;
   line-height: 45px;
+}
+.space{
+  padding-top: 50px;
+  padding-bottom:50px;
 }
 .line-top {
   border: 3px solid #0095db;
