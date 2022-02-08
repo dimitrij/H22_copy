@@ -181,6 +181,10 @@ strong {
     border: 3px solid #0095db;
     width: 67px;
 }
+.line-top-grey {
+    border: 3px solid #737373;
+    width: 67px;
+}
 
 .line-bottom {
     border: 1px solid #0095db;
