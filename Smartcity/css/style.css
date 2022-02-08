@@ -1,5 +1,9 @@
 body {
+<<<<<<< HEAD
   margin: 0 auto;
+=======
+    margin: 0 auto;
+>>>>>>> bb0499ef867b24d82b320b2e9f18c3bdc514329f
 }
 
 header {
@@ -26,6 +30,7 @@ header {
 /* Patric end */
 
 /*   kristoffer  */
+<<<<<<< HEAD
 .bottom-content {
   position: relative;
   width: 100%;
@@ -87,6 +92,121 @@ strong {
   border: 1px solid #0095db;
   width: 37px;
 }
+=======
+.kristiffer {
+    display:block;
+    position: relative;
+}
+
+.bottom-content-bg {
+    position: relative;
+    margin: 0 auto;
+    height: auto;
+    background-color: #e2e2e2;
+    overflow: hidden;
+    display: block;
+}
+
+.bottom-content {
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+}
+
+.making-items{
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    background-color: white;
+    overflow: hidden;
+    display: block;
+}
+
+.textstyle {
+    text-align: left;
+}
+
+.textbox {
+    width: 66%;
+    color: #737373;
+    font-family: inherit;
+    font-size: 22px;
+}
+
+.nyttigt {
+    color: #0095db;
+    font-size: 35px;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.img-box {
+    float: left;
+}
+
+.img-b {
+    border-radius: 50%;
+    max-width: 200px;
+    height: auto;
+}
+
+.pl-text-box {
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+
+.pl-text {
+    color: #737373;
+}
+
+.pl-link {
+    color: #0095db;
+    text-decoration: 6px underline;
+}
+
+.b-box {
+    font-size: 35px;
+    line-height: 45px;
+}
+
+.line-top {
+    border: 3px solid #0095db;
+    width: 67px;
+}
+
+.line-bottom {
+    border: 1px solid #0095db;
+    width: 37px;
+}
+
+.youtube {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    overflow: hidden;
+}
+
+.youtube iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.b-youtube{
+    text-align: center;
+}
+
+>>>>>>> bb0499ef867b24d82b320b2e9f18c3bdc514329f
 
 /* kristoffer end */
 
