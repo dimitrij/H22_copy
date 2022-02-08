@@ -61,13 +61,8 @@ header {
 /* Patric end */
 
 /*   kristoffer  */
-<<<<<<< HEAD
-.kristiffer {
-  display: block;
-=======
 .kristoffer {
   display:block;
->>>>>>> bb6108520e63a6beae6755f491aa4558a7634d10
   position: relative;
 }
 .bottom-content-bg {
@@ -131,14 +126,8 @@ strong {
 .pl-text {
   color: #737373;
 }
-<<<<<<< HEAD
-.pl-link {
-  color: #0095db;
-  text-decoration: 6px underline;
-=======
 .link {
   text-decoration: none;
->>>>>>> bb6108520e63a6beae6755f491aa4558a7634d10
 }
 .b-box {
   font-size: 35px;
@@ -155,11 +144,7 @@ strong {
   float:left;
 }
 .line-bottom {
-<<<<<<< HEAD
-  border: 1px solid #0095db;
-=======
   border: 3px solid #0095DB;
->>>>>>> bb6108520e63a6beae6755f491aa4558a7634d10
   width: 37px;
   float:left;
 }
