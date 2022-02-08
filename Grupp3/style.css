@@ -1,3 +1,38 @@
+.vitsection h3 {
+  color: blue;
+  grid-area: 1;
+}
+.vitsection h1 {
+  color: blue;
+  white-space: pre-line;
+ grid-area: 2;
+}
+.vitsection p{
+  color: black;
+  white-space: pre-line;
+  grid-area: 3;
+}
+.vitsection {
+background-color: white;
+height: 600px;
+display: grid;
+}
+
+.vitsection > div {
+background-color: lightgray;
+display: flex;
+white-space: pre-line;
+margin-top: 100px;
+padding: 2%;
+width: 300px;
+height: 150px;
+grid-area: end;
+ }  
+ .vitsection div p {
+font-size: smaller;
+ }  
+
+
 main {
     margin-top: 50px;
     width: 100%;
