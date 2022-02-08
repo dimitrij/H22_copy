@@ -17,15 +17,34 @@ header {
 
 /*   kristoffer  */
 .kristiffer {
-    margin: 0 auto;
+    display:block;
+    position: relative;
 }
 
+.bottom-content-bg {
+    position: relative;
+    margin: 0 auto;
+    height: auto;
+    background-color: #e2e2e2;
+    overflow: hidden;
+    display: block;
+}
 
 .bottom-content {
     position: relative;
-    width: 100%;
+    margin: 0 auto;
+    width: 50%;
     height: auto;
-    background-color: #e2e2e2;
+    overflow: hidden;
+    display: block;
+}
+
+.making-items{
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    background-color: white;
     overflow: hidden;
     display: block;
 }
