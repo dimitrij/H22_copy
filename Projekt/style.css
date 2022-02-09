@@ -1,0 +1,198 @@
+#DRbody{
+    margin: 0%;
+    
+}
+#DRheaderwrapper {
+    max-width: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#DRtopbar {
+background-color: rgb(166, 19, 128);
+color: white;
+text-align: center;
+top: 61px;
+padding-top: 10px;
+padding-bottom: 10px;
+outline: 0;
+}
+
+.DRlinkstyle {
+    text-decoration: none;
+    color: white;
+text-align: center;
+letter-spacing: 0px;
+font-family: "roboto", Arial, Helvetica, sans-serif;
+font-size: 22px;
+}
+
+.DRactionbar {
+    color: white;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+    overflow: hidden;
+    background-color: #adadad;
+    margin: 0 auto;
+    position: static;
+    line-height: 15px;
+}
+
+.DRliststyle {
+    list-style-type: none !important;
+    z-index: 30;
+}
+
+.DRsocial {
+    color: white;
+    letter-spacing: 0px;
+    text-transform: uppercase !important;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    list-style-type: none !important;
+    list-style: none outside;
+    float: right;
+    margin-left: 35px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding: 12px 0;
+}
+
+.DRfacebook {
+    color: white;
+    letter-spacing: 0px;
+    text-transform: uppercase !important;
+    list-style: none outside;
+    list-style-type: none !important;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    top: 68%;
+    right: 10%;
+    font: inherit;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    margin-right: 6px;
+}
+
+.DRlinkedin {
+    color: white;
+    letter-spacing: 0px;
+    text-transform: uppercase !important;
+    list-style: none outside;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    display: inline-block !important;
+    position: absolute;
+    top: 68%;
+    right: 8.5%;
+    margin-right: 6px;
+}
+
+.DRinstagram {
+    color: white;
+    letter-spacing: 0px;
+    text-transform: uppercase !important;
+    list-style: none outside;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    display: inline-block;
+    position: absolute;
+    top: 68%;
+    right: 7%;
+    margin-right: 6px;
+}
+
+.DRmail {
+    color: white;
+    letter-spacing: 0px;
+    text-transform: uppercase !important;
+    list-style: none outside;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    display: inline-block;
+    position: absolute;
+    top: 68%;
+    right: 5.5%;
+    margin-right: 6px;
+}
+.DRactionmenu {
+    color: white !important;
+    letter-spacing: 0px;
+    text-transform: uppercase !important;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    position: absolute;
+    top: 55%;
+    right: 13%;
+    vertical-align: baseline;
+    display: block;
+}
+
+.DRactionmenu2 {
+    color: white !important;
+    letter-spacing: 0px;
+    text-transform: uppercase !important;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    list-style: none outside;
+    float: right;
+    padding: 12px 0;
+}
+
+.DRactionmenuoptions {
+    color: white !important;
+    letter-spacing: 0px;
+    text-transform: uppercase !important;
+    list-style: none outside;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    cursor: pointer;
+    display: inline-block !important;
+    margin-right: 6px;
+    padding-right: 6px;
+    border-right: 1px solid rgba(255,255,255,.1);
+    font-size: 14px;
+}
+
+  .DRactionmenuoptions a:hover {
+text-decoration: underline;
+  }
+  
+
+

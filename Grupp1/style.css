@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+/*General Declaration for the main*/
+main {
+    background-color: #E4E4E4;
+    height: 7200px;
+    width: auto;
+    padding: 25px 60px;
+
+}
+
+/*First Part Search*/
+input[type=text] {
+    border: 2px solid rgba(0, 149, 219, 1);
+    border-radius: 5px;
+    background-image: url('assets/search.png');
+    background-size: 15px 15px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 5px 20px 5px 40px;
+    width: 600px;
+    margin-top: 40px;
+    height: 40px;
+    margin-right: 370px;
+    margin-left: 370px;
+    width: 610px;
+    cursor: pointer;
+}
+
+/*Second Part Images containers*/
+.aagalary {
+    margin-top: 60px;
+
+}
+
+.aaflex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    justify-content: space-around;
+    border: 10px solid transparent;
+}
+
+.aaflex-container>div img {
+    width: 430px;
+    height: 300px;
+}
+
+.aasub-container {
+    width: 430px;
+    height: 600px;
+    background-color: white;
+    border: 0px solid transparent;
+}
+
+.aasub-container:hover {
+    transform: translate3d(-5px, -15px, 5px);
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+
+.aasub-container>a {
+    text-decoration: none;
+}
+
+.aaflex-container>div button {
+    background-color: white;
+    border: none;
+    color: #0095db;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.aaflex-container>div p {
+    text-align: left;
+    font-family: 'Roboto', Arial, Tahoma, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 100;
+    color: #737373;
+}
+
+.aaflex-container>div h2 {
+    color: #737373;
+    text-align: left;
+    font-family: 'Roboto', Arial, Tahoma, sans-serif;
+}
+
+.aaflex-container>div h3 {
+    font-family: 'Roboto', Arial, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #0095EB;
+}
+
+#aaalign {
+    margin-left: 20px;
+    margin-right: 20px;
+}
