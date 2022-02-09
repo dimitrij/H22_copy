@@ -126,10 +126,46 @@ li a:hover, .dropdown:hover .dropbtn {
 }
 #dropdown-content-list {
     left: 50%;
-    transform: translateX(-50%);
     width: 100%;
     height: 310px;
     padding-left: 100px;
     background-color: rgb(255, 255, 255, 0.8);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* BIG IMAGE---------
+----------------------------*/
+.partners-img {
+    background-image: url(partners2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 30px solid #0095EB;
+    width: 100%;
+    height: 475px;
+    margin-top: 90px; 
+}
+.text-efter-img {
+    background-color: rgb(255, 255, 255);
+    height: 450px;
+    width: auto;
+    margin: -100px 60px 0 60px; 
+}
+.text-efter-img h4 {
+    font-family: Arial, Tahoma, sans-serif Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(8,149,219);
+    font-size: 35px;
+    padding-top: 100px;
+    font-weight: 100;
+    font-style: normal;
+
+}
+.text-efter-img p {
+   color: rgb(120,127,132); 
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   padding-top: 50px;
+   font-size: 25px;
+   line-height: 40px;
+   font-style: normal;
 }

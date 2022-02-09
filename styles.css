@@ -1,3 +1,24 @@
+<<<<<<< HEAD
+img{
+    float:right;
+    border-radius: 50%;
+    width: 550px;
+    height: 550;
+
+}
+.ocean{
+    color:#0095db;
+    text-align: left;
+    font-size: 27px;
+    line-height: 37px;
+    font-weight: 300;
+    letter-spacing:  0 px;
+}
+p{ 
+    font-size:large;
+
+}
+=======
 section{
 background-position:center;
 background-size: cover;
@@ -35,3 +56,4 @@ div {
     box-sizing: border-box;
     text-align: center;
 }
+>>>>>>> eb8014e0ae9fc4b503bb6ed122066cdc1ff3858c
