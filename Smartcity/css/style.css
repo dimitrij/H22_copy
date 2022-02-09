@@ -6,7 +6,7 @@ strong{
   font-weight: 700;
 }
 header {
-  font-family: Roboto, Arial, Tahoma, sans-serif;
+  font-family: 'Roboto', Arial, Tahoma, sans-serif;
 }
 
  
@@ -178,9 +178,13 @@ header {
 }
 
 /*Serzat Demirer end*/
+.head-div{
+  max-width: 80%;
+}
 /* Patric */
 .top-content {
   width: 100%;
+  align-items: center;
 }
 
 .hbg-img-with-text {
