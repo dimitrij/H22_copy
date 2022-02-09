@@ -224,49 +224,46 @@ header {
 /* Patric end */
 
 /*   kristoffer  */
-.kristoffer {
-  display: block;
-  position: relative;
+.kristoffer{
+width:100%;
+Font-family: inherit;
 }
 
 .bottom-content-bg {
-  position: relative;
-  margin: 0 auto;
   height: auto;
   background-color: #e2e2e2;
   overflow: hidden;
-  display: block;
+  
 }
 
 .bottom-content {
-  position: relative;
   margin: 0 auto;
-  width: 50%;
+  width:63%;
   height: auto;
   overflow: hidden;
-  display: block;
+  
 }
 
 .making-items {
-  position: relative;
   margin: 0 auto;
-  width: 50%;
+  width: 63%;
   height: auto;
   background-color: white;
   overflow: hidden;
-  display: block;
+  
 }
 
 .textstyle {
   text-align: left;
+  background-position: center;
 }
 
 .textbox {
-  width: 100%;
+  width: 80%;
   color: #737373;
-  font-family: inherit;
   font-size: 22px;
   padding-bottom: 15px;
+  margin-top:10px;
 }
 
 .nyttigt {
@@ -288,8 +285,9 @@ strong {
 
 .img-b {
   border-radius: 50%;
-  max-width: 250px;
+  max-width: 260px;
   height: auto;
+  margin-right: 80px;
 }
 
 .img-c {
@@ -298,29 +296,26 @@ strong {
   height: auto;
 }
 
-.pl-text-box {
-  box-sizing: border-box;
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 100%;
-}
-
 .pl-text {
-  color: #737373;
+display:inline-block;
+color: #737373;
 }
-
+.pl{
+  font-size:22px;
+  margin-top: -2px;
+}
 .link {
   text-decoration: none;
 }
-
+.box-t{
+  margin-bottom:80px;
+}
 .b-box {
   font-size: 35px;
   line-height: 45px;
 }
-
-.space {
-  padding-top: 50px;
-  padding-bottom: 50px;
+.space{
+margin-bottom:50px;
 }
 
 .line-top {
@@ -338,7 +333,8 @@ strong {
 .line-bottom {
   border: 3px solid #0095DB;
   width: 37px;
-  float: left;
+  float:left;
+  margin-top: -10px;
 }
 
 .youtube {
