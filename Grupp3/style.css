@@ -32,7 +32,19 @@ grid-area: end;
  }  
  .vitsection div p {
 font-size: smaller;
- }  
+ } 
+ 
+ .headerimgcontainer {
+  width:100%;
+  height:320px;
+  padding:50px 0px;
+  overflow:hidden;
+  background-image:url(../Grupp3/img/H22_Testbedd_Header.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  border-bottom:25px solid #0095eb;
+  }
 
 
 main {
@@ -188,7 +200,6 @@ body {
   
   .icon {
   display:inline-block;
-  background-color:#4cb4e5;
   padding-right:38px;
   }
   
