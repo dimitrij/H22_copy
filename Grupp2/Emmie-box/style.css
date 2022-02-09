@@ -13,6 +13,8 @@ main {
   grid-template-columns: 1fr repeat(12, minmax(auto, 60px)) 1fr;
   grid-gap: 40px;
   padding: 60px 0;
+  display: flex;
+  justify-content: center;
 }
 
 .text-medium {
@@ -64,6 +66,7 @@ main {
 
 .card-title {
   margin-bottom: 20px;
+  color:rgb(131, 131, 131)
 }
 
 .card-info {
