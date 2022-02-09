@@ -1,63 +1,30 @@
-*{
-    box-sizing:border-box;
-    margin: 2px;
-    padding: 2px;
+body {
+    margin: 0px;
 }
 
-#box {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap:1em;
-    background-color:lavender;
-    margin: 1em auto;
-    padding: 1em;
-    width:fit-content;
-    height:max-content;
-    justify-content: center;
-    padding-left: 5em;
-    padding-right: 5em;
-    opacity:0.8;
-    overflow-x: hidden;
+.footer1 {
+    background-color: #0095db;
+    width: fill;
+    height: 200px;
+    margin: 0px;
+    border: 0px;
+    padding-top: 200px;
+    padding-right: 50px;
+    padding-bottom: 1px;
+    padding-left: 40px;
+}
 
-    /*justify-content:center;
-     text-align:center;
-     height:100px;
-     width:200px;  */
+#h22logo {
+    height: 105px;
+    width: 288px;
     
-
-}
-.insidebox {
-    display: flex;
-    flex-direction: row;
-    background-color:burlywood;
-    padding:2em;
-    margin: 1px;;
 }
 
-/* .box1 {
-   display: flex;
-   width: 50px;
-   height: 50px; 
-
-}  Ask this one again on each box */
-
-.fit-picture{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding:0em;
-    margin:0%;
-
-}
-
-.insidebox > div {
-    background-color: #eee;
-    padding: 2em;
-    margin: 2px;
+#Helsingborglogo {
+    widht: 109px;
+    height: 115px;
+    float: right;
 
 
-}
-
-.insidebox > div:nth-child(odd){
-    background-color:aliceblue
+    
 }
