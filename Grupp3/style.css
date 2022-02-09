@@ -73,7 +73,13 @@ font-size: smaller;
   }
 =======
 } 
+<<<<<<< HEAD
+.gråsection a {
+  text-decoration: none;
+}
+=======
 >>>>>>> c9c6129d8527167b0035267c547b3542640364be
+>>>>>>> 500a317f399f1abf9c0fa4c95ff31998cecc5721
 
  .flex-container1 {
    margin-top: 3px;
