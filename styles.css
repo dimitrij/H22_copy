@@ -35,3 +35,92 @@ div {
     box-sizing: border-box;
     text-align: center;
 }
+div.gallery {
+    margin: 0px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  .wpb_wrapper > div {
+    margin-bottom: 35px;
+}
+.pins_animation.ihotspot_pulse {
+    -moz-animation: Ani 2s infinite;
+    -webkit-animation: Ani 2s infinite;
+    animation: Ani 2s infinite;
+}
+.point_style img {
+    position:calc(1316px,192px);
+    top: 0;
+    left: 0;
+    width: 5px;%;
+    max-width: inherit;
+}
+.NSR_VERAPARK {
+    position: absolute;
+    top: 22%;
+    left: 68.5%;
+    transform: translate(-50%, -50%);
+    position: calc();
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.DROTTNINGÖG {
+    position: absolute;
+    top: 26.5%;
+    left: 55.5%;
+    transform: translate(-50%, -50%);
+    position: calc();
+}
+.GRÖNINGEN {
+    position: absolute;
+    top: 36.5%;
+    left: 47.1%;
+    transform: translate(-50%, -50%);
+    position: calc();
+}
+.SEAU {
+        position: absolute;
+        top: 43.5%;
+        left: 47%;
+        transform: translate(-50%, -50%);
+        position: calc();
+}
+.VATTENTORNET {
+    position: absolute;
+    top: 40%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    position: calc();
+}
+.STADPARKEN_SÖDER{
+    position: absolute;
+    top: 47.7%;
+    left: 50.5%;
+    transform: translate(-50%, -50%);
+    position: calc();
+}
+.OCEANHAMNEN {
+    position: absolute;
+    top: 53%;
+    left: 47.5%;
+    transform: translate(-50%, -50%);
+    position: calc();
+
+
+
+    
