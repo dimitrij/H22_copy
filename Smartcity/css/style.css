@@ -147,8 +147,6 @@ header {
   }
 }
 
-/*Serzat Demirer end*/
-
 .smartcity-headline {
   margin-top: -170px;
   background-color: white;
@@ -162,6 +160,23 @@ header {
   font-size: 12px;
 }
 
+.search-icon {
+  margin-left: 10px;
+  margin-right: 10px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.swedish-flag {
+  margin-left: 10px;
+  margin-right: 70px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+/*Serzat Demirer end*/
 /* Patric */
 .top-content {
   width: 100%;
