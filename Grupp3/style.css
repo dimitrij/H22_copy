@@ -142,6 +142,14 @@ body {
   font-size:20px;
   width:50%;
   }
+
+  input::placeholder {
+  color:#4cb4e5;
+  }
+
+  input[type=text]:focus {
+  background-color:whitesmoke;
+  }
   
   input[type="submit"] {
   display:inline-block;
@@ -158,6 +166,9 @@ body {
   
   .footertext2 {
   width:50%;
+  text-align:right;
+  margin-right:110px;
+  line-height:25px;
   }
   
   .footertext2 a {
@@ -172,11 +183,13 @@ body {
   
   .footertext2 p {
   color:white;
+  padding-right:79px;
   }
   
   .icon {
   display:inline-block;
   background-color:#4cb4e5;
+  padding-right:38px;
   }
   
   .icons {
