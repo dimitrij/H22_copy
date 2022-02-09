@@ -4,16 +4,12 @@ body {
 }
 
 header {
-  width: 100%;
-  height: 242px;
-  background-color: blue;
-}
-
-#header {
   font-family: Roboto, Arial, Tahoma, sans-serif;
 }
+
  
-/* ser*/
+ 
+/*  Serzat Demirer */
 
 #action-bar {
   display: flex;
@@ -27,7 +23,20 @@ header {
 
 #action-bar a {
   color: white;
-  text-decoration: none;
+  text-decoration: none; 
+}
+
+#action-bar ul {
+ list-style: none;
+}
+.nav-bar-margin-left {
+ margin-left: 20px;
+}
+
+.expobar {
+  padding: 10px 0px;   
+  text-align: center;
+  background-color:  rgb(166, 19, 128);
 }
 
 .expobar a {
@@ -36,15 +45,7 @@ header {
   font-weight: bold;
   font-size: 20px;
 }
-
-#action-bar ul {
-  list-style: none;
-}
-
-.nav-bar-margin-left {
-  margin-left: 20px;
-}
-
+ 
 .slogan {
   color: white;
 }
@@ -53,6 +54,12 @@ header {
   display: flex;
   flex-direction: row;
   padding: 0;
+  list-style: none;
+}
+.meny-action-nav-sidebar{
+  display: flex;
+  flex-direction: column;
+    padding: 0;
   list-style: none;
 }
 
@@ -128,7 +135,19 @@ header {
   color: #0095eb;
 }
 
-/*ser end*/
+
+@media screen and (max-width: 1020px) {
+  .bottom-nav-bar-menyline {
+    display: none;
+  }
+}
+@media screen and (min-width: 1020px) {
+  .bottom-nav-bar-meny {
+    display: none;
+  }
+}
+
+/*Serzat Demirer end*/
 
 .smartcity-headline {
   margin-top: -170px;
