@@ -58,6 +58,9 @@ font-size: 20px;
 .vitsection div p {
 font-size: smaller;
 } 
+.gråsection a {
+  text-decoration: none;
+}
 
  .flex-container1 {
    margin-top: 3px;
