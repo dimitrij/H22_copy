@@ -1,6 +1,10 @@
 body {
   margin: 0 auto;
 }
+
+#header {
+  font-family: Roboto, Arial, Tahoma, sans-serif;
+}
  
 
 #action-bar {
@@ -88,14 +92,17 @@ justify-content: space-between;
   display: none;
 }
 .meny-action-nav{
+  display: flex;
+  flex-direction:;
   padding: 0;
   list-style: none;
 
 }
+
 .bottom-nav-bar-link {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 14px;
   color: #818181;
   display: block;
   transition: 0.3s;
@@ -131,8 +138,15 @@ justify-content: space-between;
   margin-top: -170px;
   background-color: white;
 }
-  background-color: blue;
+
+.menyline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  font-size: 12px;
 }
+
 /* Patric */
 .top-content {
   width: 100%;
