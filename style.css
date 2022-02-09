@@ -16,6 +16,39 @@ body {
     
 
 }
+.H22{
+
+}
+.img{
+    width: 550;
+    height: 550;
+    border-radius: 50%;
+    float: left;
+}
+.city{
+   font-size: 27px;
+   margin: 40px;
+   
+   color: #0095db;
+   line-height: 37px;
+   font-weight: 300;
+
+}
+.para{
+    font-size: 22px;
+    color:rgb(41, 39, 39);
+    display: block;
+    margin: 0% 0% 15%;
+    text-align: left;
+    margin: 50px;
+}
+.link{
+     font-size: 18px;
+     color: #0095db;
+
+
+}
+
 
 h4.heading_custom {
     text-align: left;
