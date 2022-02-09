@@ -70,6 +70,90 @@
                         </a>
                     </li>
                 </ul>
+
+            </div>
+            <div class="bottom-nav-bar">
+                <div class="bottom-nav-bar-logo">
+                    <img src="./img/H22_Logo_Black_Hbg.png" alt="" height="100px">
+                </div>
+                <div class="bottom-nav-bar-menyline">
+                    <ul class="menyline">
+                        <li class="menyline-link">
+                            <a class="bottom-nav-bar-link" href="https://h22.se/kontakt/">OM H22</a>
+                        </li>
+                        <li class="menyline-link">
+                            <a class="bottom-nav-bar-link" href="https://h22.se/projekt/">INNOVATIONER</a>
+                        </li>
+                        <li class="menyline-link">
+                            <a class="bottom-nav-bar-link" href="https://h22.se/invanare/">ENGAGERA DIG</a>
+                        </li>
+                        <li class="menyline-link">
+                            <a class="bottom-nav-bar-link" href="https://h22.se/partners/">PARTNERS</a>
+                        </li>
+                        <li class="menyline-link">
+                            <a class="bottom-nav-bar-link" href="https://www.h22cityexpo.se/">H22 CITY EXPO</a>
+                        </li>
+                        <li class="menyline-link">
+                            <a class="bottom-nav-bar-link" href="https://h22.se/summit/">H22 SUMMIT</a>
+                        </li>
+                        <li class="seach-meny">
+                            <button class="search-icon">
+                                <img src="./img/search-icon.jpeg" alt="SEARCH" width="20PX">
+                            </button>
+                        </li>
+                        <li class="language-meny">
+                            <button class="swedish-flag">
+                                <img src="./img/Sweden-flag-icon-on-transparent-background-PNG.png" alt="swedish flag"
+                                    width="35px">
+                            </button>
+                        </li>
+                    </ul>
+
+                    <div class="language-meny">
+
+                    </div>
+                </div>
+                <div class="bottom-nav-bar-meny">
+                    <div class="menu-button-box" onclick="openNav()">
+                        <span style="font-size: 26px;
+                        cursor: pointer;
+                         margin-left: 10px;
+                        color : #0095eb;
+                        "> &#9776;</span>
+                    </div>
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <ul class="meny-action-nav-sidebar">
+                            <li class="bottom-nav-bar-items">
+                                <a class="bottom-nav-bar-link" href="https://h22.se/kontakt/">OM H22</a>
+                                <img src="./img/arrow-down-icon.png" alt="" height="14px">
+                            </li>
+                            <li class="bottom-nav-bar-items">
+                                <a class="bottom-nav-bar-link" href="#">INNOVATIONER</a>
+                                <img src="./img/arrow-down-icon.png" alt="" height="14px">
+
+                            </li>
+                            <li class="bottom-nav-bar-items">
+                                <a href="#" class="bottom-nav-bar-link">ENGAGERA DIG</a>
+                                <img src="./img/arrow-down-icon.png" alt="" height="14px">
+                            </li>
+                            <li class="bottom-nav-bar-items">
+                                <a href="#" class="bottom-nav-bar-link">PARTNERS</a>
+                                <img src="./img/arrow-down-icon.png" alt="" height="14px">
+                            </li>
+                            <li class="bottom-nav-bar-items">
+                                <a href="#" class="bottom-nav-bar-link">H22 CITY EXPO</a>
+                                <img src="./img/arrow-down-icon.png" alt="" height="14px">
+                            </li>
+                            <li class="bottom-nav-bar-items">
+                                <a href="#" class="bottom-nav-bar-link">H22 SUMMIT</a>
+                                <img src="./img/arrow-down-icon.png" alt="" height="14px">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
         </header>
         <div class="head-div">
             <div class="top-content">
@@ -294,18 +378,13 @@
                 <div class="youtube">
                     <iframe src="https://www.youtube.com/embed/ctW6Je1-Tok" frameborder="0" allowfullscreen></iframe>
                 </div>
-                <p class="b-youtube">Se filmen som illustrerar hur uppkopplade föremål kommunicerar med hjälp av
-                    LoRa.</p>
-            </div>
-            <div class="textbox">
-                <h3 class="nyttigt">SMART CITY</h3>
-                <h4>PROJEKT</h4>
-                <div class="line-bottom-b"></div>
-            </div>
-            <div class="smart-city">
-                <div class="inline">
-                    <a href="https://h22.se/projekt/resursens-hus/"><img src="img/resurs-bild-1024x715.jpg"
-                            class="img-c"></a>
+
+                <div class="textbox">
+                    <h3 class="nyttigt"><strong>SMART CITY</strong>
+                        <br>
+                        PROJEKT
+                    </h3>
+                    <div class="line-top"></div>
                 </div>
                 <div class="inline">
                     <a href="https://h22.se/projekt/parkera-innan-du-parkerat/"><img
@@ -360,6 +439,15 @@
                 </div>
             </div>
         </footer>
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.display = "block";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.display = "none";
+            }
+        </script>
 </body>
 
 </html>
