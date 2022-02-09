@@ -38,9 +38,10 @@ font-size: smaller;
  .flex-container1 {
    margin-top: 3px;
    padding-top: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
+  display: inline-block;
+  width: 100%;
+  
+  align-items: center;
   background-color: rgb(223, 222, 222);
   
   
@@ -49,6 +50,7 @@ font-size: smaller;
 
 .search {
   border: 1px solid rgb(212, 16, 16);
+  margin-left: 22%;
     border-radius: 5px;
     height: 40px;
     width: 100%;
