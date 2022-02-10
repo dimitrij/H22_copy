@@ -81,10 +81,10 @@ font-size: smaller;
 >>>>>>> c9c6129d8527167b0035267c547b3542640364be
 >>>>>>> 500a317f399f1abf9c0fa4c95ff31998cecc5721
 
- .flex-container1 {
+.flex-container1 {
    margin-top: 3px;
    padding-top: 100px;
-  display: inline-block;
+  display: flex;
   width: 100%;
   
   align-items: center;
@@ -92,15 +92,7 @@ font-size: smaller;
 
 }
 
-.search {
-  border: 1px solid rgb(212, 16, 16);
-  margin-left: 22%;
-    border-radius: 5px;
-    height: 40px;
-    width: 100%;
-    padding: 2px 23px 2px 30px;
-    outline: 0;
-    background-color: #f5f5f5;
+
   
 }
 main {
