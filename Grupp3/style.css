@@ -10,6 +10,8 @@
 width:100%;
 }
 
+.topheadercontainer { width:100%;}
+
 .rosa {
   border: none;
   background-color: rgb(166, 19, 128);
@@ -28,6 +30,7 @@ width:100%;
   align-items:baseline;
   background-color:#adadad;
   width:100%;
+  margin-bottom:-65px;
 }
 
 .bartext {
@@ -442,6 +445,7 @@ body {
   color:white;
   font-size:20px;
   text-decoration:none;
+  margin-top:30px;
   }
   
   .footertext2 a:hover {
@@ -450,7 +454,7 @@ body {
   
   .footertext2 p {
   color:white;
-  padding-right:70px;
+  padding-right:21px;
   }
   
   .icon {
