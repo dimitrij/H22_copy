@@ -8,54 +8,46 @@ strong{
 header {
   font-family: 'Roboto', Arial, Tahoma, sans-serif;
 }
-
- 
- 
 /*  Serzat Demirer */
-
 #action-bar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #adadad;
+  background-color: #ADADAD;
   align-items: center;
   text-transform: uppercase;
   font-size: 14px;
 }
-
 #action-bar a {
   color: white;
-  text-decoration: none; 
+  text-decoration: none;
 }
-
 #action-bar ul {
  list-style: none;
 }
 .nav-bar-margin-left {
  margin-left: 20px;
 }
-
 .expobar {
-  padding: 10px 0px;   
+  padding: 10px 0px;
   text-align: center;
   background-color:  rgb(166, 19, 128);
 }
-
 .expobar a {
   color: white;
   text-decoration: none;
   font-weight: bold;
   font-size: 20px;
 }
- 
 .slogan {
+  margin-left: 115px;
   color: white;
 }
-
 .meny-action-nav {
+  margin-left: 0px;
   display: flex;
   flex-direction: row;
-  padding: 0;
+  padding: ;
   list-style: none;
 }
 .meny-action-nav-sidebar{
@@ -64,31 +56,26 @@ header {
     padding: 0;
   list-style: none;
 }
-
 .meny-action-social-media {
+  margin-right: 155px;
   display: flex;
   flex-direction: row;
 }
-
 .meny-action-social-media img {
   height: 20px;
 }
-
 .social-media-margin-rigt {
   margin: 5px;
 }
-
 .bottom-nav-bar-logo {
-  margin: 20px 0px 20px 20px;
+  margin: 20px 0px 20px 150px;
 }
-
 .bottom-nav-bar {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
-
 .sidenav {
   height: 100%;
   width: 250px;
@@ -106,9 +93,7 @@ header {
   display: flex;
   padding: 0;
   list-style: none;
-
 }
-
 .bottom-nav-bar-link {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -117,13 +102,20 @@ header {
   display: block;
   transition: 0.3s;
 }
-
 .bottom-nav-bar-items {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-
+.menu-span{
+  font-size: 26px;
+  cursor: pointer;
+   margin-left: 10px;
+  color : #0095EB;
+}
+.menyline {
+  margin-right: 135px;
+}
 .closebtn {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -133,10 +125,8 @@ header {
   transition: 0.3s;
   text-align: end;
   font-size: 31px;
-  color: #0095eb;
+  color: #0095EB;
 }
-
-
 @media screen and (max-width: 1020px) {
   .bottom-nav-bar-menyline {
     display: none;
@@ -147,12 +137,10 @@ header {
     display: none;
   }
 }
-
 .smartcity-headline {
   margin-top: -170px;
   background-color: white;
 }
-
 .menyline {
   display: flex;
   flex-direction: row;
@@ -160,7 +148,6 @@ header {
   list-style: none;
   font-size: 12px;
 }
-
 .search-icon {
   margin-left: 10px;
   margin-right: 10px;
@@ -168,15 +155,9 @@ header {
   background-color: white;
   cursor: pointer;
 }
-
-.swedish-flag {
-  margin-left: 10px;
-  margin-right: 70px;
-  border: none;
-  background-color: white;
-  cursor: pointer;
+ul .meny-action-nav{
+  margin-top: 0px 0px;
 }
-
 /*Serzat Demirer end*/
 .head-div{
   max-width: 80%;
