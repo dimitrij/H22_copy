@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .images_wrap img {
     width: 600px;
@@ -149,3 +150,53 @@ a {
 
     
 
+=======
+.first-image img{
+    align-content: center;
+    display: flex;
+    float: center;
+    margin-top: 100px;
+    margin-left : 1000px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+
+ }
+.h22 img {
+    display: flex;
+    float: right;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+
+}
+.ocean{
+    color:#0095db;
+    text-align: left;
+    font-size: 27px;
+    line-height: 37px;
+    font-weight: 300;
+
+ }
+  
+.oceanhamnen-text { 
+    color: #737373, Roboto, Arial, Tahoma, sans-serif;
+    font-size: 27px;
+    margin: 40px;
+    text-indent: 50px;
+    
+} 
+.link {
+    font-size: 20px;
+    color: #0095db;
+ }
+ 
+ .hrnew2{
+    width: 535px;
+    border: 2px;
+    border-radius: 21px;
+    margin-top: 37px;
+    margin-inline-end:
+
+}
+>>>>>>> 16807d45e03377b07cd96d2464c2b09348c12dd1
