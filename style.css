@@ -19,6 +19,13 @@ body {
 .H22{
 
 }
+.pic img{
+    width: 250;
+    height: 250;
+    border-radius: 50%;
+    margin-left: 40%;
+    
+}
 .img{
     width: 550;
     height: 550;
