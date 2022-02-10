@@ -1,59 +1,27 @@
-#header-wrapper {
-    background-repeat: no-repeat;
-    background-position: top center;
-}
-#header-wrapper {
-    background-color: aquamarine;
-}
-#header-wrapper {
-    position: relative;
-}
-.myheader {
-    background-color: rgb(166, 19, 128);
-    text-align: center;
-    font-size: 22px;
-    font-family: "Gill Sans", sans-serif;
-    top: 61px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.center {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
 }
 
-.strong {
-    font-weight: 900;
+.circle {
+  background:#FF66CC;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 1px 1px #0000001a;
 }
-.actionbar {
-    background-color: #adadad;
-    position: static;
-    text-transform: uppercase !important;
-    left: 0;
-    top: 0;
-    width: 100%;
-    z-index: 30;
-    line-height: 21px;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-#navbar {
-    background-color: #adadad;
-    padding-top: 14px;
-}
-.smarter {
-    color: aliceblue;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, arial, tahoma,sans-serif;
-    font-size: 14px;
-    font-weight: 70;
-    font-style:normal;
-    font-display: ;
-    margin-left : -210px;
-    padding-left : 210px;
 
+.pulse {
+  animation: pulse-animation 2s infinite;
 }
-.images_wrap {
-    width: 100%;
-    height: auto;
-    display: block;
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+  }
 }
