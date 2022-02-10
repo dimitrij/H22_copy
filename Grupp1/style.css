@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+}
+
+/*General Declaration for the main*/
+main {
+    background-color: #E4E4E4;
+    height: 7050px;
+    width: auto;
+    padding: 25px 60px 0px 60px;
+
+}
+
+/*First Part Search*/
+input[type=text] {
+    border: 2px solid rgba(0, 149, 219, 1);
+    border-radius: 5px;
+    background-image: url('assets/search.png');
+    background-size: 15px 15px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 5px 20px 5px 40px;
+    width: 600px;
+    margin-top: 40px;
+    height: 40px;
+    margin-right: 370px;
+    margin-left: 390px;
+    width: 610px;
+    cursor: pointer;
+}
+
+
+/*Second Part Images containers*/
+.aagalary {
+    margin-top: 50px;
+    margin-bottom: 0;
+
+}
+
+.aaflex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    justify-content: space-around;
+    border: 10px solid transparent;
+}
+
+.aaflex-container>div img {
+    width: 430px;
+    height: 300px;
+}
+
+.aasub-container {
+    width: 430px;
+    height: 600px;
+    background-color: white;
+    border: 0px solid transparent;
+}
+
+.aasub-container:hover {
+    transform: translate3d(-5px, -10px, 5px);
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.aasub-container>a {
+    text-decoration: none;
+}
+
+.aaflex-container>div button {
+    background-color: white;
+    border: none;
+    color: #0095db;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    font-style: normal !important;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
+.aaflex-container>div p {
+    text-align: left;
+    font-family: Arial, Tahoma, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 100;
+    color: #737373;
+}
+
+.aaflex-container>div h2 {
+    color: #737373;
+    text-align: left;
+    font-family: Arial, Tahoma, sans-serif;
+}
+
+.aaflex-container>div h3 {
+    font-family: Arial, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #0095EB;
+}
+
+#aaalign {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*Third Part footer */
+
+.lufooter {
+    height: 330px;
+    width: auto;
+    background-color: #4cb4e5;
+}
+
+.lutext {
+    float: left;
+    padding-left: 60px;
+    margin-top: 50px;
+    color: white;
+    font-family: 'Roboto', Arial, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+
+.lutext h4 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.lutext h2 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.lulist {
+    border: 0 solid transparent;
+    color: white;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: flex-start;
+}
+
+.lulist>input {
+    width: 380px;
+    border: none;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 'Roboto', Arial, Tahoma, sans-serif;
+    height: 48px;
+    margin-bottom: 100px;
+}
+
+.lulist>button {
+    background-color: #ff0000;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 100;
+    border: none;
+    cursor: pointer;
+}
+
+.lulist p {
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.lutext1 {
+    float: right;
+    margin-top: 60px;
+    margin-right: 60px;
+    color: white;
+    line-height: 40px;
+}
+
+.lutext1 p {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto', Arial, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+
+}
+
+.lasta a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Roboto', Arial, Tahoma, sans-serif;
+
+}
+
+.lasta a:hover {
+    text-decoration: underline;
+}
+
+.fa-facebook-f,
+.fa-linkedin-in,
+.fa-instagram {
+
+    color: white;
+    font-size: 30px;
+    background-color: transparent;
+    padding-right: 30px;
+}
+
+
+.lulastfooter {
+
+    background-color: #0095db;
+    height: 400px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 20px;
+
+}
+
+.leftimagefooter {
+    padding-bottom: 60px;
+}
+
+.rightimagefooter {
+    padding-bottom: 80px;
+}
+
+.lulist>input::placeholder {
+    color: #0095db;
+}
