@@ -47,17 +47,22 @@ main {
 .card-image-container {
   width: 100%;
   height: auto;
-  padding-top: 56.25%;
+  padding-top: 46%;
   overflow: hidden;
   position: relative;
 }
 
 .card-image-container img {
-  width: 100%;
-  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  width: 90%;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
 
 .card-content {
   padding: 20px;
@@ -71,8 +76,4 @@ main {
   display: flex;
   align-self: end;
   align-items: center;
-}
-
-.readmore-btn{
-  
 }
