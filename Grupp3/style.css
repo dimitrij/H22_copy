@@ -4,6 +4,12 @@
   
 }
 
+#header {width:100%;}
+
+#headerimcontainer {
+width:100%;
+}
+
 .rosa {
   border: none;
   background-color: rgb(166, 19, 128);
