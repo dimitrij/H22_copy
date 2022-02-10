@@ -1,14 +1,17 @@
 body {
   margin: 0 auto;
-  font-family: inherit;
+  font-family: 'Roboto', Arial, Tahoma, sans-serif;
+}
+strong{
+  font-weight: 700;
+}
+header {
+  font-family: 'Roboto', Arial, Tahoma, sans-serif;
 }
 
-header {
-  width: 100%;
-  height: 242px;
-  background-color: blue;
-}
-/* ser*/
+ 
+ 
+/*  Serzat Demirer */
 
 #action-bar {
   display: flex;
@@ -19,10 +22,24 @@ header {
   text-transform: uppercase;
   font-size: 14px;
 }
-  #action-bar a {
-    color: white;
-    text-decoration: none; 
-}  
+
+#action-bar a {
+  color: white;
+  text-decoration: none; 
+}
+
+#action-bar ul {
+ list-style: none;
+}
+.nav-bar-margin-left {
+ margin-left: 20px;
+}
+
+.expobar {
+  padding: 10px 0px;   
+  text-align: center;
+  background-color:  rgb(166, 19, 128);
+}
 
 .expobar a {
   color: white;
@@ -30,84 +47,144 @@ header {
   font-weight: bold;
   font-size: 20px;
 }
-#action-bar ul {
-  list-style: none;
-}
-.nav-bar-margin-left {
-  margin-left: 20px;
-}
+ 
 .slogan {
   color: white;
 }
-.meny-action-nav{
+
+.meny-action-nav {
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
   padding: 0;
   list-style: none;
 }
+.meny-action-nav-sidebar{
+  display: flex;
+  flex-direction: column;
+    padding: 0;
+  list-style: none;
+}
+
 .meny-action-social-media {
   display: flex;
   flex-direction: row;
 }
+
 .meny-action-social-media img {
   height: 20px;
 }
+
 .social-media-margin-rigt {
   margin: 5px;
 }
-.bottom-nav-bar-logo{
+
+.bottom-nav-bar-logo {
   margin: 20px 0px 20px 20px;
 }
-.bottom-nav-bar{
+
+.bottom-nav-bar {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  }
-  .sidenav {
-    height: 100%;
-    width: 250px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background-color: #fff;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 10px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 10px;
+  display: none;
+}
+.meny-action-nav{
+  display: flex;
+  padding: 0;
+  list-style: none;
+
+}
+
+.bottom-nav-bar-link {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.bottom-nav-bar-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.closebtn {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  text-align: end;
+  font-size: 31px;
+  color: #0095eb;
+}
+
+
+@media screen and (max-width: 1020px) {
+  .bottom-nav-bar-menyline {
     display: none;
   }
-  .bottom-nav-bar-link {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 17px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
+}
+@media screen and (min-width: 1020px) {
+  .bottom-nav-bar-meny {
+    display: none;
   }
-  .bottom-nav-bar-items{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  .closebtn{
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 17px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-    text-align: end;
-    font-size: 31px;
-    color: #0095eb;
-  }
+}
 
-/*ser end*/
+.smartcity-headline {
+  margin-top: -170px;
+  background-color: white;
+}
 
+.menyline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  font-size: 12px;
+}
+
+.search-icon {
+  margin-left: 10px;
+  margin-right: 10px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.swedish-flag {
+  margin-left: 10px;
+  margin-right: 70px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+/*Serzat Demirer end*/
+.head-div{
+  max-width: 80%;
+}
 /* Patric */
 .top-content {
   width: 100%;
-  height: 4000px;
+  align-items: center;
 }
 
 .hbg-img-with-text {
@@ -118,94 +195,176 @@ header {
   border-bottom: 25px solid #0095db;
   min-height: 550px;
 }
+
 .hbg-by-night-img {
   border-bottom: 25px solid #0095db;
 }
+
 .smartcity-headline {
   background-color: white;
   padding: 68px;
   margin: -215px 13%;
 }
 
+.smartcity-heading {
+  color: #0095db;
+}
+
 .sc-headline {
-  margin-top: 200px;
+  margin-top: 150px;
   font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
   width: 50%;
+  color: #0095db;
+}
+h1{
+  font-size: 36px;
+  font-weight: 100;
+}
+h2{
+  font-size: 56px;
+  font-weight: 100;
 }
 
-.sc-text{
+.sc-text {
   font-size: 22px;
-  font-family: Arial, Helvetica, sans-serif;
-  width: 63%;
+  /*font-family: inherit;*/
+  width: 80%;
+  color:#737373;
 
 }
-
-.strong-headline{
+.strong-headline {
   font-size: 38px;
+  width: 65%;
 }
 
-.hr-line-bottom{
-    width: 4.5%;
-    border-bottom: 6px solid #0095db;
-    margin-left: 0;
+.p-line-bottom {
+  width: 4.5%;
+  border-bottom: 6px solid #0095db;
+  margin-left: 0;
 }
 
+.palle-flex {
+  display: flex;
+  margin-top: 70px;
+  align-items: center;
+  margin-bottom: 200px;
+}
 
+.p-line-top {
+  width: 16%;
+  border-bottom: 6px solid #0095db;
+  margin-left: 0;
+}
+
+.palle-text {
+  font-size: 35px;
+  color: #0095db;
+  font-weight: 700;
+}
+
+.palle-img {
+  border-radius: 50%;
+}
+
+.palle-space {
+  margin-right: 80px;
+}
+
+.strong-headline-space {
+  margin-top: -31px;
+  color: #0095db;
+
+}
+
+.sc-link:link {
+  color: #0095db;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.sc-link:hover {
+  color: #0095db;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 
 
 /* Patric end */
 
 /*   kristoffer  */
-.kristoffer {
-  display:block;
-  position: relative;
-}
+
 .bottom-content-bg {
-  position: relative;
-  margin: 0 auto;
   height: auto;
   background-color: #e2e2e2;
   overflow: hidden;
-  display: block;
 }
 .bottom-content {
-  position: relative;
   margin: 0 auto;
-  width: 50%;
+  width:73%;
   height: auto;
   overflow: hidden;
-  display: block;
 }
 .making-items {
-  position: relative;
   margin: 0 auto;
-  width: 50%;
+  width: 73%;
   height: auto;
   background-color: white;
-  overflow: hidden;
-  display: block;
+  overflow: hidden; 
 }
 .textstyle {
   text-align: left;
+  background-position: center;
+  width: 80%;
 }
 .textbox {
-  width: 100%;
+  width: 63%;
   color: #737373;
-  font-family: inherit;
   font-size: 22px;
   padding-bottom: 15px;
+  margin-top:10px;
+}
+.textbox-b {
+  width: 63%;
+  color: #737373;
+  font-size: 22px;
+  padding-bottom: 15px;
+  margin-top:80px;
+}
+.textbox-träd {
+  width: 63%;
+  color: #737373;
+  font-size: 22px;
+  padding-bottom: 15px;
+  margin-top:130px;
+  margin-bottom:50px;
+}
+.smart-city{
+  text-align: inline;
+  margin-right: 10px;
+  margin-top: 30px;
 }
 .nyttigt {
   color: #0095db;
-  font-size: 35px;
+  font-size: 38px;
+}
+h4{
+  margin-top:-40px;
+  color: #0095db;
+  font-size: 38px;
+  font-weight: 100;
 }
 strong {
   font-weight: 700;
 }
-.inline{
-  display:inline-block;
+.inline {
+  display: inline-block;
+}
+.inline a{
+-webkit-filter: brightness(50%);
+}
+.inline a:hover{
+-webkit-filter: brightness(1);
 }
 .img-box {
   float: left;
@@ -214,46 +373,87 @@ strong {
   border-radius: 50%;
   max-width: 250px;
   height: auto;
+  margin-right: 30px; 
+  
 }
 .img-c {
-  border-radius: 20%;
-  max-width: 250px;
+  border-radius: 50%;
+  max-width: 320px;
   height: auto;
 }
-.pl-text-box {
-  box-sizing: border-box;
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 100%;
+.img-d {
+  border-radius: 50%;
+  max-width: 320px;
+  height: auto;  
+  margin-left: 70px;
+}
+.patrick{
+  margin-bottom:130px;
+}
+.works{
+  width: 63%;
+}
+.PLi{
+  font-size:35px;
+  margin-top: -5px;
+
 }
 .pl-text {
-  color: #737373;
+display:inline-block;
+color: #737373;
 }
-.link {
+.pl{
+  font-size:22px;
+  margin-top: -2px;
+}
+
+.link:link {
+  color: #0095db;
+  background-color: transparent;
   text-decoration: none;
+}
+  
+.link:hover {
+  color: #0095db;
+  background-color: transparent;
+  text-decoration: underline;
+  }
+
+.box-t{
+  margin-bottom:80px;
+}
+#trad{
+  margin-top: 50px;
 }
 .b-box {
   font-size: 35px;
   line-height: 45px;
 }
 .space{
-  padding-top: 50px;
-  padding-bottom:50px;
+margin-bottom:50px;
 }
 .line-top {
-  border: 3px solid #0095db;
-  width: 67px;
-  float:left;
+  border-bottom: 6px solid #0095db;
+  width: 100px;
+  float: left;
+  margin-bottom:-30px;
 }
 .line-top-grey {
-  border: 3px solid #737373;
-  width: 67px;
-  float:left;
+  border-bottom: 6px solid #737373;
+  width: 100px;
+  float: left;
 }
 .line-bottom {
-  border: 3px solid #0095DB;
+  border-bottom: 6px solid #0095DB;
   width: 37px;
   float:left;
+  margin-top: -10px;
+}
+.line-bottom-b {
+  border-bottom: 6px solid #0095DB;
+  width: 60px;
+  float:left;
+  margin-top: -45px;
 }
 .youtube {
   position: relative;
@@ -274,8 +474,96 @@ strong {
 
 /* kristoffer end */
 
+
+/* harri*/
+
 footer {
   width: 100%;
   height: 400px;
-  background-color: green;
+}
+
+.ldmain{
+  margin-top:150px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #4CB4E5;
+  height: 200px;
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.ldmain-container{
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  width: 75%;
+}
+.ldleft-side{
+  width: 50%;
+}
+.ldnews{
+  color: white;
+  font: 18px;
+}
+.ldnews-letter{
+  font-weight: 700;
+  font: 18px;
+  color: white;
+  margin: 0px 0px 40px;
+}
+.text{
+  background-color: white;
+  color: #4CB4E5;
+  margin: 0px 0px 20px;
+  padding: 10px;
+  width: 250px;
+  border-style: none;
+}
+.submit{
+  background-color: red;
+  margin: 0px 7px 15px -6px;
+  padding:11px 20px;
+  border-style: none;
+  width: 190px;
+  height: 35px;
+  color: white;
+}
+#gdpr{
+  color: white;
+  text-decoration: none;
+}
+.ldright-side{
+color: white;
+width: 50%;
+}
+#contact{
+  text-decoration: none;
+  color: white;
+}
+.ldform{
+ text-align: right;
+}
+.ldfootermain{
+  background-color: #0095DB;
+  height: 400px;
+}
+.ldfootermain-container{
+padding-top: 200px;
+padding-right: 50px;
+padding-bottom: 1px;
+padding-left: 40px;
+width: 75%;
+margin: 0 auto;
+}
+.loggapng{
+width: 280px;
+height: 120px;
+}
+.logga2png{
+  width: 109px;
+  height: 115px;
+  float: right;
 }
