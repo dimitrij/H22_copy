@@ -9,17 +9,18 @@
     float: left;
 }
 .col1 h4{
-    font-size: 20px;
-    font-family: roboto,arial,tahoma,sans-serif;
+    font-size: 18px;
+    font-family: arial,tahoma,sans-serif;
     text-align: left;
     font-style: normal;
-   font-weight: 100;
+   font-weight: 300;
    }
 .col1 p{
-    font-weight:bold;
+    font-weight:500;
     font-style: normal;
     text-align: left;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: arial,tahoma,sans-serif;
    }
    input[type=text]{
        width:50%;
@@ -37,6 +38,7 @@
    .col1 a{
       
        text-decoration: none;
+       color: white;
    }
 
 .col2{
