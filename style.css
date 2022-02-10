@@ -1,65 +1,44 @@
-<<<<<<< HEAD
-.center {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 100vh;
+* {
+    box-sizing: border-box;
 }
 
-.circle {
-  background:#FF66CC;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  box-shadow: 0px 0px 1px 1px #0000001a;
-}
-
-.pulse {
-  animation: pulse-animation 2s infinite;
-}
-
-@keyframes pulse-animation {
-  0% {
-    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
-  }
-  100% {
-    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
-  }
-=======
-#DRbody{
+#DRheader {
     margin: 0%;
-    
+    top: 0;
+    height: 0;
+
 }
+
 #DRheaderwrapper {
     max-width: 100%;
     width: 100%;
     margin: 0%;
     padding: 0;
     border: 0;
-    overflow: hidden;
-    display: block;
+    height: 90px;
+    display: table;
     position: relative;
     background-repeat: no-repeat;
     background-position: top center;
 }
 
 #DRtopbar {
-background-color: rgb(166, 19, 128);
-color: white;
-text-align: center;
-top: 61px;
-padding-top: 10px;
-padding-bottom: 10px;
-outline: 0;
+    background-color: rgb(166, 19, 128);
+    color: white;
+    text-align: center;
+    top: 61px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
 }
 
 .DRlinkstyle {
     text-decoration: none;
     color: white;
-text-align: center;
-letter-spacing: 0px;
-font-family: "roboto", Arial, Helvetica, sans-serif;
-font-size: 22px;
+    text-align: center;
+    letter-spacing: 0px;
+    font-family: "roboto", Arial, Helvetica, sans-serif;
+    font-size: 22px;
 }
 
 .DRactionbar {
@@ -73,7 +52,6 @@ font-size: 22px;
     float: left;
     width: 100%;
     margin-bottom: 0;
-    overflow: hidden;
     background-color: #adadad;
     margin: 0 auto;
     position: static;
@@ -82,7 +60,6 @@ font-size: 22px;
 
 .DRliststyle {
     list-style-type: none !important;
-    z-index: 30;
 }
 
 .DRsocial {
@@ -114,7 +91,7 @@ font-size: 22px;
     border: 0;
     position: absolute;
     top: 68%;
-    right: 10%;
+    right: 13%;
     font: inherit;
     display: inline-block !important;
     vertical-align: middle !important;
@@ -134,7 +111,7 @@ font-size: 22px;
     display: inline-block !important;
     position: absolute;
     top: 68%;
-    right: 8.5%;
+    right: 14.5%;
     margin-right: 6px;
 }
 
@@ -151,9 +128,10 @@ font-size: 22px;
     display: inline-block;
     position: absolute;
     top: 68%;
-    right: 7%;
+    right: 16%;
     margin-right: 6px;
 }
+
 
 .DRmail {
     color: white;
@@ -168,9 +146,10 @@ font-size: 22px;
     display: inline-block;
     position: absolute;
     top: 68%;
-    right: 5.5%;
+    right: 17.5%;
     margin-right: 6px;
 }
+
 .DRactionmenu {
     color: white !important;
     letter-spacing: 0px;
@@ -181,9 +160,8 @@ font-size: 22px;
     font: inherit;
     position: absolute;
     top: 55%;
-    right: 13%;
-    vertical-align: baseline;
-    display: block;
+    right: 25%;
+    display: table;
 }
 
 .DRactionmenu2 {
@@ -214,108 +192,34 @@ font-size: 22px;
     display: inline-block !important;
     margin-right: 6px;
     padding-right: 6px;
-    border-right: 1px solid rgba(255,255,255,.1);
+    border-right: 1px solid rgba(255, 255, 255, .1);
     font-size: 14px;
 }
 
-  .DRactionmenuoptions a:hover {
+.DRactionmenuoptions a:hover {
     text-decoration: underline;
-  }
-  
-
-.DRdropdown {
-    position: sticky;
-    width: 100%;
-    vertical-align: baseline;
-    letter-spacing: 0px;
-    padding: 0;
-    border: 0;
-    margin: 0 auto;
-    position: relative;
-    max-width: 940px;
-    font: inherit;
 }
 
-.DRlogopic {
-    height: 80px;
-    width: 150px;
-    vertical-align: baseline;
-    float: left;
-    margin-top: 33px;
-    margin-left: -235px;
-    color: #737373;
-    letter-spacing: 0px;
-    padding: 0;
-    border: 0;
-    font: inherit;
-}
-
-.DRlistcontainer {
-    letter-spacing: 0px;
-    font: inherit;
-    list-style: none outside;
-    transition: none;
-    border-radius: 0;
-    box-shadow: none;
-    background: none;
-    border: 0;
-    bottom: auto;
-    box-sizing: border-box;
-    clip: auto;
-    color: #007db8;
-    display: block;
-    float: none;
-    font-family: inherit;
-    font-size: 14px;
-    height: auto;
-    left: auto;
-    line-height: 1.7;
-    list-style-type: none;
-    margin: 0;
-    min-height: auto;
-    max-height: none;
-    min-width: auto;
-    max-width: none;
-    opacity: 1;
-    outline: none;
-    overflow: visible;
-    position: relative;
-    pointer-events: auto;
-    right: auto;
-    text-decoration: none;
-    text-indent: 0;
-    text-transform: none;
-    transform: none;
-    top: auto;
-    vertical-align: baseline;
-    width: auto;
-    word-wrap: break-word;
-    white-space: normal;
-    visibility: visible;
-    text-align: left;
-    padding: 35px 0px 0px 0px;
-}
-  
 .header {
     background: rgb(255, 255, 255);
-    height: 140px;
-    box-shadow: 0px 0px 12px 3px rgba(41,41,41,.25);
 }
+
 .fix-top {
     position: sticky;
+    align-items: flex-start;
     top: 0;
     width: 100%;
     height: 50px;
-    margin-top: 0;
-    
+
 }
+
 /*--select language-*/
 .DRul {
     list-style-type: none;
-    overflow: hidden;
     margin-top: 0px;
     margin-right: 120px;
 }
+
 .DRli {
     float: right;
     margin-top: 45px;
@@ -328,55 +232,64 @@ font-size: 22px;
     border: 1px solid rgb(173, 173, 173);
     border-radius: 3px;
 }
+
 /*--dropdown-*/
 li.dropdown {
     display: inline-block;
     float: right;
     margin-top: 45px;
 }
-li a, .dropbtn {
+
+li a,
+.dropbtn {
     display: inline-block;
     text-decoration: none;
-    color:grey;
+    color: grey;
     padding: 20px 20px;
 }
-li a:hover, .dropdown:hover .dropbtn {
-    color: rgb(115,156,198);
-    
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    color: rgb(115, 156, 198);
+
 }
+
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: rgb(255, 255, 255);
     min-width: 250px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
+
 .dropdown-content a {
-    display: block;
+    display: table;
     text-decoration: none;
     text-align: left;
-    color: #007db8; 
+    color: #007db8;
     font-size: small;
 }
+
 .dropdown-content a:hover {
-    color: #005d88);
+    color: #005d88;
     font-weight: bold;
 }
+
 .dropdown:hover .dropdown-content {
-    display: block;
+    display: table;
 }
+
 #dropdown-content-list {
     left: 50%;
-    width: 100%;
+    width: 98%;
     height: 310px;
     padding-left: -10px;
     background-color: rgb(255, 255, 255, 0.8);
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 
-  span.mega-indicator:after {
+span.mega-indicator:after {
     content: '\f140';
     font-family: dashicons;
     font-weight: normal;
@@ -393,9 +306,9 @@ li a:hover, .dropdown:hover .dropbtn {
     width: auto;
     right: auto;
     line-height: inherit;
-  }
+}
 
-  .DRbackground {
+.DRbackground {
     background-image: url('assets/H22_Projekt_Header.jpg');
     width: 100%;
     background-size: cover;
@@ -403,24 +316,24 @@ li a:hover, .dropdown:hover .dropbtn {
     height: 600px;
     padding: 50px;
     box-sizing: border-box;
-    z-index: 0;
 }
 
 .DRwhitebox {
     background-color: white;
     width: 90%;
     height: 100%;
-    z-index: 1;
     padding: 40px 30px 0px 40px;
     margin-top: 400px;
     margin-left: 10px;
 }
-.DRwhiteboxtext1{
+
+.DRwhiteboxtext1 {
     color: #0095D8;
     font-family: "Roboto", Arial, Tahoma, sans-serif;
     font-weight: 300;
 }
-.DRwhiteboxtext2{
+
+.DRwhiteboxtext2 {
     color: #0095D8;
     font-family: "Roboto", Arial, Tahoma, sans-serif;
     font-weight: 300;
@@ -428,7 +341,7 @@ li a:hover, .dropdown:hover .dropbtn {
     font-size: 45px;
 }
 
-.DRwhiteboxtext3{
+.DRwhiteboxtext3 {
     color: #737373;
     font-family: "Roboto", Arial, Tahoma, sans-serif;
     font-weight: 300;
@@ -441,13 +354,12 @@ li a:hover, .dropdown:hover .dropbtn {
     background-color: #f2f2f2;
     width: 385px;
     height: auto;
-    z-index: 1;
     padding: 10px 30px 10px 30px;
     margin-top: -250px;
     margin-left: 865px;
 }
 
-.DRgreyboxtext1{
+.DRgreyboxtext1 {
     color: #737373;
     font-family: "Roboto", Arial, Tahoma, sans-serif;
     font-weight: 300;
@@ -456,7 +368,7 @@ li a:hover, .dropdown:hover .dropbtn {
     max-width: 700px;
 }
 
-.DRgreyboxtext2{
+.DRgreyboxtext2 {
     color: #0095eb;
     font-family: "Roboto", Arial, Tahoma, sans-serif;
     font-weight: 300;
@@ -466,7 +378,264 @@ li a:hover, .dropdown:hover .dropbtn {
     font-weight: 700;
     text-decoration: none;
 }
-.DRgreyboxtext2:hover{
-text-decoration: underline;
->>>>>>> 16807d45e03377b07cd96d2464c2b09348c12dd1
+
+.DRgreyboxtext2:hover {
+    text-decoration: underline;
+}
+
+
+/*General Declaration for the main*/
+main {
+    background-color: #E4E4E4;
+    height: 7050px;
+    width: auto;
+    margin-top: 400px;
+    padding: 25px 60px 0px 60px;
+
+}
+
+/*First Part Search*/
+input[type=text] {
+    border: 2px solid rgba(0, 149, 219, 1);
+    border-radius: 5px;
+    background-image: url('assets/search.png');
+    background-size: 15px 15px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 5px 20px 5px 40px;
+    width: 600px;
+    margin-top: 40px;
+    height: 40px;
+    margin-right: 370px;
+    margin-left: 390px;
+    width: 610px;
+    cursor: pointer;
+}
+
+
+/*Second Part Images containers*/
+.aagalary {
+    margin-top: 50px;
+    margin-bottom: 0;
+
+}
+
+.aaflex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    justify-content: space-around;
+    border: 10px solid transparent;
+}
+
+.aaflex-container>div img {
+    width: 430px;
+    height: 300px;
+}
+
+.aasub-container {
+    width: 430px;
+    height: 600px;
+    background-color: white;
+    border: 0px solid transparent;
+}
+
+.aasub-container:hover {
+    transform: translate3d(-5px, -10px, 5px);
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.aasub-container>a {
+    text-decoration: none;
+}
+
+.aaflex-container>div button {
+    background-color: white;
+    border: none;
+    color: #0095db;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    font-style: normal !important;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
+.aaflex-container>div p {
+    text-align: left;
+    font-family: Arial, Tahoma, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 100;
+    color: #737373;
+}
+
+.aaflex-container>div h2 {
+    color: #737373;
+    text-align: left;
+    font-family: Arial, Tahoma, sans-serif;
+}
+
+.aaflex-container>div h3 {
+    font-family: Arial, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #0095EB;
+}
+
+#aaalign {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*Third Part footer */
+
+.lufooter {
+    height: 330px;
+    width: auto;
+    background-color: #4cb4e5;
+}
+
+.lutext {
+    float: left;
+    padding-left: 60px;
+    margin-top: 50px;
+    color: white;
+    font-family: 'Roboto', Arial, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+
+.lutext h4 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.lutext h2 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.lulist {
+    border: 0 solid transparent;
+    color: white;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: flex-start;
+}
+
+.lulist>input {
+    width: 380px;
+    border: none;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 'Roboto', Arial, Tahoma, sans-serif;
+    height: 48px;
+    margin-bottom: 100px;
+}
+
+.lulist>button {
+    background-color: #ff0000;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 100;
+    border: none;
+    cursor: pointer;
+}
+
+.lulist p {
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.lutext1 {
+    float: right;
+    margin-top: 60px;
+    margin-right: 60px;
+    color: white;
+    line-height: 40px;
+}
+
+.lutext1 p {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto', Arial, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+
+}
+
+.lasta a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Roboto', Arial, Tahoma, sans-serif;
+
+}
+
+.lasta a:hover {
+    text-decoration: underline;
+}
+
+.fa-facebook-f,
+.fa-linkedin-in,
+.fa-instagram {
+
+    color: white;
+    font-size: 30px;
+    background-color: transparent;
+    padding-right: 30px;
+}
+
+.luFace,
+.luLinked,
+.luInsta {
+
+    color: white;
+    font-size: 30px;
+    background-color: transparent;
+    padding-right: 30px;
+}
+
+.lulist>input::placeholder {
+    color: #0095db;
+}
+
+
+.lulastfooter {
+
+    background-color: #0095db;
+    height: 400px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 20px;
+
+}
+
+.leftimagefooter {
+    padding-bottom: 60px;
+}
+
+.rightimagefooter {
+    padding-bottom: 80px;
 }
