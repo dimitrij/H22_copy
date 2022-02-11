@@ -199,7 +199,6 @@ margin-top: 60px;
 font-size: 36px;
 }
 .vitsection h3:after {
-    content: "";
     display: block;
     margin: 0;
     width: 60px;
