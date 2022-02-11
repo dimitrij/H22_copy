@@ -1,0 +1,148 @@
+<head>
+
+  <title>Mina intressen</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <div>
+    <ul class="navbar">
+
+      <ul>
+
+        <div class="omh22"></div>
+        <li><a href="#">Om H22</a></li <a href="https://h22.se/omh22/"> OM OCH VARFÖR H22</a>
+        <a href="https://h22.se/tre-teman-i-fokus/">TRE TEMAN I FOKUS </a>
+        <a href="https://www.h22cityexpo.se/">H22 CITY EXPO</a>
+        <a href="https://h22.se/advisoryboards/">ADVISORY BOARDS</a>
+        <a href="https://h22.se/radgivande-grupper/">RÅDGIVANDE GRUPPER</a>
+        <a href="https://h22.se/initiativtagare/">H22 INITIATIVTAGARE</a>
+        <a href="https://h22.se/faq/">FAQ</a></li>
+
+        <li><a href="#">INNOVATIONER</a></li>
+        <li><a href="#">ENGAGERA DIG</a></li>
+        <li><a href="#">PARTNERS</a></li>
+        <li><a href="#">H22 CITY EXPO</a></li>
+        <li><a href="#">H22 SUMMIT</a></li>
+
+
+      </ul>
+  </div>
+
+</head>
+
+
+
+
+
+
+
+!-- om H22 -->
+<div class="row">
+  <div class="column">
+    <h4><a href="https://h22.se/omh22/"> OM OCH VARFÖR H22</a></h4>
+    <a href="https://h22.se/tre-teman-i-fokus/">TRE TEMAN I FOKUS </a>
+    <a href="https://www.h22cityexpo.se/">H22 CITY EXPO</a>
+    <a href="https://h22.se/advisoryboards/">ADVISORY BOARDS</a>
+    <a href="https://h22.se/radgivande-grupper/">RÅDGIVANDE GRUPPER</a>
+    <a href="https://h22.se/initiativtagare/">H22 INITIATIVTAGARE</a>
+    <a href="https://h22.se/faq/">FAQ</a></li>
+  </div>
+
+
+  <div class="column">
+    <h4><a href="https://h22.se/geografiska-huvudomraden/"> GEOGRAFISKA HUVUDOMRÅDEN</a></h4>
+    <a href="https://h22.se/oceanhamnen/">OCEANHAMNEN</a>
+    <a href="https://h22.se/cityomradet/">CITYOMRÅDET</a>
+    <a href="https://h22.se/drottninghog/">DROTTNINGHÖG</a>
+    <a href="https://h22.se/slottshagen/">SLOTTSHAGEN</a>
+  </div>
+
+
+  <div class="column">
+    <h4><a href="https://h22.se/smartcity/"> SMART CITY</a></h4>
+    <a href="https://h22.se/icapital/">ICAPITAL</a>
+    <a href="https://h22.se/proud-green-helsingborg/">PROUD GREEN HELSINGBORG</a>
+  </div>
+
+
+  <div class="column">
+    <h4><a href="https://h22.se/filmarkiv/">FILMARKIV</a></h4>
+    <a href="https://h22.se/rosten/">RÖSTEN & PODDAR</a>
+    <a href="https://h22.se/mitt-h22/">MITT H22</a>
+
+  </div>
+</div>
+</div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">INNOVATIONER
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content">
+    <div class="header">
+
+    </div>
+
+    <!-- INNOVATIONER-->
+    <div class="row">
+      <div class="column">
+        <h4><a href="https://h22.se/projekt/"> PROJEKT</a></h4>
+        <a href="https://h22.se/testbaddar/">TESTBÄDDAR </a>
+        <a href="https://h22.se/lookout/">Trendspaningar</a>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="dropdown">
+  <button class="dropbtn">ENGAGERA DIG
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content">
+    <div class="header">
+
+    </div>
+
+    <!-- om INVÅNARE -->
+    <div class="row">
+      <div class="column">
+        <h4><a href="https://h22.se/invanare/"> INVÅNARE</a></h4>
+        <a href="https://h22.se/invanare/">DU ÄR H22 </a>
+        <a href="https://h22.se/h22-barn/">H22 BARN</a>
+        <a href="https://h22.se/invanare/vill-du-vara-med-och-skapa-framtidens-helsingborg/">VILL DU VARA
+          MED?</a>
+        <a href="https://h22.se/engagemang/">BLI TESTPILOT</a>
+        <a href="https://h22.se/projekt/alska-trad/">ÄLSKA TRÄD GRÖN MAGI</a>
+
+      </div>
+
+
+      <div class="column">
+        <h4><a href="https://h22.se/foreningsliv/"> FÖRENINGSLIV</a></h4>
+        <a href="https://h22.se/foreningsliv/">FÖRENINGAR SOM MEDSKAPARE</a>
+        <a href="https://h22.se/?page_id=359663">KIDSEDITION</a>
+        <a href="https://h22.se/foreningsliv/foreningsfonden/">FÖRENINGSFONDEN</a>
+
+      </div>
+
+
+      <div class="column">
+        <h4><a href="https://h22.se/bli-partner/"> NÄRINGSLIV</a></h4>
+        <a href="https://h22.se/engagera-dig/lokalt-naringsliv/">LOKALT NÄRINGSLIV</a>
+        <a href="https://h22.se/?page_id=353963">UTSTÄLLARE</a>
+      </div>
+
+
+      <div class="column">
+        <h4><a href="https://h22.se/radgivande-grupper/">RÅDGIVANDE GRUPPER</a></h4>
+        <a href="https://h22.se/radgivande-grupper/#invanarrad">INVÅNARRÅDET</a>
+        <a href="https://h22.se/radgivande-grupper/#aldreradet">ÄLDRERÅDET</a>
+        <a href="https://h22.se/radgivande-grupper/#ungdomsradet">UNGDOMSRÅDET</a>
+        <a href="https://h22.se/radgivande-grupper/#foreningsradet">FÖRENINGSRÅDET</a>
+
+      </div>
+    </div>
+  </div>
+</div>

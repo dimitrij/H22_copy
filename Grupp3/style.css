@@ -40,115 +40,126 @@ width:100%;
   margin-left: 30px;
 }
 
-
+ 
 
 .navbar {
 
-display:flex;
-
-  overflow: hidden;
-  text-align: center;
-  background-color: white;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-  Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  padding-right: 100px; 
-}
-
-
-
-
-/* Links inside the navbar */
-.navbar a {
-  display: flex;
-  float:right;
-    font-size: 16px;
-    color: white;
+  display:flex;
+  
+    overflow: hidden;
     text-align: center;
+    
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    padding-left: 220px; 
+    padding-top: -5px;
+    margin-bottom: 60px;
+    margin: 20px;
+    
+  }
+  
+  
+  
+  
+  /* Links inside the navbar */
+  .navbar a {
+    display: flex;
+    float:right;
+      font-size: 16px;
+      color: whitbe;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      
+  }
+  
+  
+
+  
+  /* The dropdown container */
+  .dropdown {
+   
+    float: left;
+  
+    overflow: hidden;
+  
+  
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+   float: center;
+    font-size: 16px;
+    border: 5px;
+    outline: none;
+    color: black;
     padding: 14px 16px;
+    background-color:white;
+    font: inherit; 
+  }
+  
+  
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white
+    
+    width: 100%;
+    height: 18%;
+    align-items: center;
+    
+    z-index: 1;
+  }
+  
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display:block;
+    
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    
+    float: left;
+    width: 20%;
+    height: 10%;
+    
+  }
+  
+  
+  .column a {
+    display: flex;
+    float:center;
+    text-align: right;
+    color: #0095eb;
+    background-color: none; /* backgrundfärg på dropdown text*/
+    padding: 10px;
     text-decoration: none;
-}
-
-
-
-/* The dropdown container */
-.dropdown {
- 
- 
-  float: left;
-
-  overflow: hidden;
-
-
-}
-
-/* Dropdown button */
-.dropdown .dropbtn {
- float: center;
-  font-size: 16px;
-  border: 5px;
-  outline: none;
-  color: black;
-  padding: 14px 16px;
-  background-color:white;
-  font: inherit; 
-}
-
-
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color:whitesmoke;
+    
+   
+  }
   
-  width: 120%;
-  height: 18%;
-  align-items: center;
   
-  z-index: 1;
-}
-
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display:block;
+  /* Add a background color on hover */
+  .column a:hover {
+   
+    background-color:white;
+    border: none;
+    
+  }
   
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 20%;
-  height: 10%;
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
   
-}
 
-
-.column a {
-  float:none ;
-  color: #0095eb;
-  background-color: whitesmoke;
-  padding: 5px;
-  text-decoration: none;
-  display: flex;
-  text-align: left;
-}
-
-
-/* Add a background color on hover */
-.column a:hover {
- 
-  background-color:w;
-  border: none;
-  
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 .vitsection h3 {
 color: rgb(47, 155, 243);
 margin-left: 30px;
@@ -210,7 +221,7 @@ font-size: smaller;
   height:320px;
   padding:50px 0px;
   overflow:hidden;
-  background-image:url(../Grupp3/img/H22_Testbedd_Header.jpg);
+  background-image:url(img/H22_Testbedd_Header.jpg);
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
@@ -257,6 +268,7 @@ main {
     justify-content: center;
     align-items: baseline;
     background-color: rgb(223, 222, 222);
+    padding: 0px 80px 0px;
   
 
    
@@ -268,9 +280,10 @@ main {
     width: 99%;
     
     
+    
   }
 .flex-container > div img{
-    width: 99%;
+    width: 100%;
     height: 305px;
     
     
@@ -281,7 +294,7 @@ p {
     font-size: 14x;
     line-height: 24px;
     color: #737373;
-    margin: 10px;
+    margin: 10px 60px 90px 30px;
 
 
 }
@@ -290,20 +303,20 @@ p {
     font-size: 14x;
     line-height: 24px;
     color: rgba( 0, 149, 219, 1);
-    margin: 10px;
+    margin: 10px 0px 10px 30px;
     padding-top: ;
 
 }
 h2 {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgba(115, 115, 115, 1);
-  margin: 10px;
+  margin: 10px 0px 10px 30px;
 
 }
 h3 {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgba( 0, 149, 219, 1);
-  margin: 10px;
+  margin: 10px 0px 60px 30px;
 
 }
 
@@ -456,3 +469,6 @@ body {
   float:right;
   
   }
+© 2022 GitHub, Inc.
+Terms
+Privacy
