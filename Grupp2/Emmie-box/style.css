@@ -22,14 +22,7 @@ main {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-}
-
-h2{
-  color: rgba( 119, 119, 119, 1 );
-  text-decoration: none;
-  font-size: 1.5em;
-  font-weight: bold;
-  z-index: 990;
+  color:#737373;
 }
 
 .cards {
@@ -54,17 +47,22 @@ h2{
 .card-image-container {
   width: 100%;
   height: auto;
-  padding-top: 56.25%;
+  padding-top: 46%;
   overflow: hidden;
   position: relative;
 }
 
 .card-image-container img {
-  width: 100%;
-  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  width: 90%;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
 
 .card-content {
   padding: 20px;
@@ -72,15 +70,10 @@ h2{
 
 .card-title {
   margin-bottom: 20px;
-  color:rgb(131, 131, 131)
 }
 
 .card-info {
   display: flex;
   align-self: end;
   align-items: center;
-}
-
-.readmore-btn{
-  
 }

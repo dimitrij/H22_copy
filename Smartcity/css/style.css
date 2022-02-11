@@ -47,13 +47,12 @@ header {
   margin-left: 0px;
   display: flex;
   flex-direction: row;
-  padding: ;
   list-style: none;
 }
 .meny-action-nav-sidebar{
   display: flex;
   flex-direction: column;
-    padding: 0;
+  padding: 0;
   list-style: none;
 }
 .meny-action-social-media {
@@ -159,13 +158,13 @@ ul .meny-action-nav{
   margin-top: 0px 0px;
 }
 /*Serzat Demirer end*/
-.head-div{
-  max-width: 80%;
-}
+
+/*Serzat Demirer end*/
 /* Patric */
 .top-content {
-  width: 100%;
-  align-items: center;
+  width: 78%;
+  margin: 0 auto;
+
 }
 
 .hbg-img-with-text {
@@ -181,14 +180,22 @@ ul .meny-action-nav{
   border-bottom: 25px solid #0095db;
 }
 
-.smartcity-headline {
-  background-color: white;
-  padding: 68px;
-  margin: -215px 13%;
+.content-space{
+  width: 70%;
 }
+
+
+
+
+.smartcity-headline {
+padding: 40px;
+margin-top: -128px;
+background-color: white;
+ }
 
 .smartcity-heading {
   color: #0095db;
+  margin-top: 25px;
 }
 
 .sc-headline {
@@ -208,7 +215,6 @@ h2{
 
 .sc-text {
   font-size: 22px;
-  /*font-family: inherit;*/
   width: 80%;
   color:#737373;
 
@@ -228,7 +234,7 @@ h2{
   display: flex;
   margin-top: 70px;
   align-items: center;
-  margin-bottom: 200px;
+  margin-bottom: 45px;
 }
 
 .p-line-top {
@@ -282,13 +288,13 @@ h2{
 }
 .bottom-content {
   margin: 0 auto;
-  width:73%;
+  width:75%;
   height: auto;
   overflow: hidden;
 }
 .making-items {
   margin: 0 auto;
-  width: 73%;
+  width: 75%;
   height: auto;
   background-color: white;
   overflow: hidden; 

@@ -10,37 +10,83 @@
 width:100%;
 }
 
+.topheadercontainer { width:100%;}
+
 .rosa {
   border: none;
   background-color: rgb(166, 19, 128);
   color: white;
-  padding-top: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
+  padding:12px 0px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-align: center;
-  font-size: 25px;
+  font-weight:700;
+  font-size:22px;
+  width:100%;
 }
 .bar {
-  text-align: justify;
-  right: 10px;
-  border: 0px;
-  background-color: darkgrey;
-  color: white;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  font-size: 14px;
+  display:flex;
+  flex-direction:row;
+  align-items:baseline;
+  background-color:#adadad;
+  width:100%;
+  margin-bottom:-65px;
 }
 
-.bar p {
-  margin-left: 30px;
+.bartext {
+font-size: 14px;
+margin:0px 0px 0px 55px;
+width:40%
 }
 
+<<<<<<< HEAD
  
+=======
+.bartext p {
+color:white;
+}
+
+.barnav {
+width:45%;
+display:flex;
+  align-items:baseline;
+  margin-left:140px;
+}
+
+.barnav ul {
+list-style-type:none;
+}
+
+.barnav li {
+  padding:0px 8px;
+  display:inline-block;
+}
+
+.barnav a {
+text-decoration:none;
+color:white;
+font-size:14px;
+}
+
+.barnav a:hover {
+text-decoration:underline;
+}
+
+.baricons {
+  display:inline;
+  display:flex;
+  flex-direction:row;
+  align-items:baseline;
+  width:15%;
+  margin-left:50px;
+}
+
+.bariconsimg{
+width:14px;
+height:14px;
+padding:0px 5px;
+}
+>>>>>>> 7c9f01ec39dfad5cf20b97060f9924de3537af43
 
 .navbar {
 
@@ -160,6 +206,36 @@ width:100%;
   }
   
 
+<<<<<<< HEAD
+=======
+
+.column a {
+  float:none ;
+  color: #0095eb;
+  background-color: whitesmoke;
+  padding: 5px;
+  text-decoration: none;
+  display: flex;
+  text-align: left;
+}
+
+
+/* Add a background color on hover */
+.column a:hover {
+ 
+  background-color:w;
+  border: none;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Vitsection test bäddar text*/
+>>>>>>> 7c9f01ec39dfad5cf20b97060f9924de3537af43
 .vitsection h3 {
 color: rgb(47, 155, 243);
 margin-left: 30px;
@@ -198,24 +274,46 @@ width: 93%;
 flex-direction: column;
 position: absolute;
 }
-
+/* Gråsection Kontakta oss */
 .gråsection {
 background-color: #f2f2f2; 
 white-space: pre-line;
 margin-top: 230px;
 padding: 10px;
 width: 342px;
-height: 260px;
+height: 280px;
 margin-left: 1090px;
 position: absolute;
 font-size: 20px;
 
 }  
+.gråsection a {
+  text-decoration: none;
+}
 .vitsection div p {
 font-size: smaller;
-<<<<<<< HEAD
  } 
+  /* Searchbar*/
+ .searchbar {
+   margin-left: 27%;
+   
+   }
  
+   .searchbar input[type=text] {
+     border-radius: 6px;
+    padding: 10px;
+
+    width: 650px;
+    border: 1px solid blue;
+    background: white;
+    margin-top: 80px;
+  }
+  
+ .backgroundcolor {
+   background-color: rgb(223, 222, 222);
+   
+ }
+
  .headerimgcontainer {
   width:100%;
   height:320px;
@@ -230,19 +328,14 @@ font-size: smaller;
 =======
 } 
 <<<<<<< HEAD
-.gråsection a {
-  text-decoration: none;
-}
 =======
 >>>>>>> c9c6129d8527167b0035267c547b3542640364be
 >>>>>>> 500a317f399f1abf9c0fa4c95ff31998cecc5721
 
 .flex-container1 {
-   margin-top: 3px;
-   padding-top: 100px;
+
   display: flex;
-  width: 100%;
-  
+  width: 100%;  
   align-items: center;
   background-color: rgb(223, 222, 222);
 
@@ -278,10 +371,18 @@ main {
     background-color: white;
     margin: 25px;
     width: 99%;
+    transition: 1s;
+    
     
     
     
   }
+  .flex-container > div:hover{
+		transform: scale(1.3);
+		z-index: 2;
+		
+  }
+		
 .flex-container > div img{
     width: 100%;
     height: 305px;
@@ -414,6 +515,7 @@ body {
   color:white;
   font-size:20px;
   text-decoration:none;
+  margin-top:30px;
   }
   
   .footertext2 a:hover {
@@ -422,7 +524,7 @@ body {
   
   .footertext2 p {
   color:white;
-  padding-right:70px;
+  padding-right:21px;
   }
   
   .icon {
